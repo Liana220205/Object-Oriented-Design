@@ -124,3 +124,14 @@ public class Main {
         System.out.println("Loaded book: " + loadedBook.getTitle());
     }
 }
+/*
+In this Main class, we create a new book instance, then use the BookPersistence class
+to save the book to the database and load another book from the database. This separation of 
+concerns adheres to the Single Responsibility Principle, as each class has only one reason
+to change: the Book class changes if the representation of a book changes, and
+the BookPersistence class changes if the database interaction logic changes.*/
+
+
+
+
+
